@@ -32,7 +32,7 @@ export function Navigation() {
           ))}
         </nav>
         <a
-          href="mailto:imransmail@gmail.com"
+          href="mailto:andrewkorot@outlook.com"
           className="hidden rounded-full border border-accent-cyan/40 px-4 py-1.5 text-sm font-medium text-accent-cyan transition-colors hover:bg-accent-cyan/10 sm:inline-flex"
         >
           Get in touch

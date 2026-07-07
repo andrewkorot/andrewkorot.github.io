@@ -2,7 +2,7 @@ export const profile = {
   name: "Andrii Korotaiev",
   title: "Principal Architect — AI | Cloud & Platform Architecture",
   location: "Kyiv, Ukraine",
-  email: "imransmail@gmail.com",
+  email: "andrewkorot@outlook.com",
   phone: "",
   linkedin: "https://www.linkedin.com/in/andrey-korotaev-69552b179",
   headline:
