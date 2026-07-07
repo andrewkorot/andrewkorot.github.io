@@ -11,7 +11,7 @@ const nextConfig = {
   images: { unoptimized: true },
   trailingSlash: true,
   basePath: isGithubActions ? `/${repo}` : "",
-  assetPrefix: isGithubActions ? `/${repo}/` : "",
+  assetPrefix: isGithubActions ? `/${repo}` : "",
 };
 
 export default nextConfig;

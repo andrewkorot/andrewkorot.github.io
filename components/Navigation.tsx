@@ -17,7 +17,7 @@ export function Navigation() {
             KA
           </span>
           <span className="hidden text-sm font-medium text-ink sm:inline">
-            Kazi Imran Ahmed
+            AndreAndrii Korotaiev
           </span>
         </Link>
         <nav className="hidden items-center gap-7 text-sm text-ink-mute md:flex">
