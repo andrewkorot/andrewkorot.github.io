@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-// Served from https://solutionjet.github.io/kaziahmed/ — a project page lives
-// under a repo-named subpath, so assets must be prefixed with it in CI builds.
-const repo = "kaziahmed";
+// Served from https://topdev424.github.io/ — user page, no subpath needed
 const isGithubActions = process.env.GITHUB_ACTIONS === "true";
 
 const nextConfig = {
@@ -10,8 +8,6 @@ const nextConfig = {
   output: "export",
   images: { unoptimized: true },
   trailingSlash: true,
-  basePath: isGithubActions ? `/${repo}` : "",
-  assetPrefix: isGithubActions ? `/${repo}` : "",
 };
 
 export default nextConfig;
