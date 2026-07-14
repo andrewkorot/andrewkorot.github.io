@@ -47,6 +47,16 @@ export function Contact() {
                   WhatsApp ↗
                 </a>
               )}
+              {profile.discord && (
+                <a
+                  href={profile.discord}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-full border border-border px-5 py-2.5 text-center font-medium text-ink-mute transition-colors hover:border-border-strong hover:text-ink"
+                >
+                  Discord ↗
+                </a>
+              )}
               <a
                 href={profile.linkedin}
                 target="_blank"
