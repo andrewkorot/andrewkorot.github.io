@@ -14,10 +14,10 @@ export function Navigation() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="#top" className="group flex items-center gap-3">
           <span className="grid h-8 w-8 place-items-center rounded-lg border border-border-strong bg-bg-card font-mono text-sm font-semibold text-accent-cyan">
-            KA
+            AK
           </span>
           <span className="hidden text-sm font-medium text-ink sm:inline">
-            AndreAndrii Korotaiev
+            Andrii Korotaiev
           </span>
         </Link>
         <nav className="hidden items-center gap-7 text-sm text-ink-mute md:flex">
