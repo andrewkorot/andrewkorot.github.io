@@ -27,12 +27,26 @@ export function Contact() {
               >
                 {profile.email}
               </a>
-              <a
-                href={`tel:${profile.phone.replace(/[^+\d]/g, "")}`}
-                className="rounded-full border border-border-strong px-5 py-2.5 text-center font-medium text-ink transition-colors hover:border-accent-violet/40 hover:text-accent-violet"
-              >
-                {profile.phone}
-              </a>
+              {profile.telegram && (
+                <a
+                  href={profile.telegram}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-full border border-border px-5 py-2.5 text-center font-medium text-ink-mute transition-colors hover:border-border-strong hover:text-ink"
+                >
+                  Telegram ↗
+                </a>
+              )}
+              {profile.whatsapp && (
+                <a
+                  href={profile.whatsapp}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-full border border-border px-5 py-2.5 text-center font-medium text-ink-mute transition-colors hover:border-border-strong hover:text-ink"
+                >
+                  WhatsApp ↗
+                </a>
+              )}
               <a
                 href={profile.linkedin}
                 target="_blank"

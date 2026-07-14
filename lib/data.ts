@@ -3,7 +3,8 @@ export const profile = {
   title: "Principal Architect — AI | Cloud & Platform Architecture",
   location: "Kyiv, Ukraine",
   email: "andrewkorot@outlook.com",
-  phone: "",
+  telegram: "@topfreelancer424",
+  whatsapp: "+380988287789",
   linkedin: "https://www.linkedin.com/in/andrey-korotaev-69552b179",
   headline:
     "Principal Architect with 10+ years of engineering and architecture experience spanning AI systems, cloud platform design, agentic automation, and multi-cloud enterprise integrations.",

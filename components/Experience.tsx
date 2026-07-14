@@ -6,7 +6,7 @@ export function Experience() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-12 flex flex-col gap-3">
           <span className="eyebrow">02 — Experience</span>
-          <h2 className="section-title">20+ years across architecture and engineering.</h2>
+          <h2 className="section-title">10+ years across architecture and engineering.</h2>
           <p className="max-w-3xl text-ink-mute">
             From principal architecture for AI-ready platforms to co-founding multi-cloud
             SaaS products — a continuous track record of leading large, complex systems.
